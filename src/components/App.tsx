@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from '../assets/logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './header/Header';
+import Layout from './layout/Layout';
+import Footer from './footer/Footer';
 
-const App = () => {
+interface Props {
+
+}
+
+const App: React.FC<Props> = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Layout />
+      </div>
+    </Router>
   );
 }
 
-export default App;
+export default App
+
