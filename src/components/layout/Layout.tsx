@@ -4,6 +4,7 @@ import Home from '../home/Home';
 import Login from '../login/Login';
 import NoMatch from '../error/NoMatch';
 import Footer from '../footer/Footer';
+import Outer from '../outer/Outer';
 interface Props {
 
 }
@@ -40,6 +41,7 @@ export default class Layout extends Component<Props, State> {
             <div>
                 <Switch>
                     <PublicRoute exact={true} path='/' component={Home} />
+                    <PublicRoute path='/outer' component={Outer} />
                     <PrivateRoute path='/login' component={Login} />
                     <Route component={NoMatch} />
                 </Switch>
