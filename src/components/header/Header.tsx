@@ -14,17 +14,22 @@ export default class Header extends Component<Props, State> {
 
     render() {
         return (
-            <div className="header">
-                <div className="header_top_wrap">
-                    <div className="header_top_wrap__left">
+            <div className="pg-header">
+                <div className="pg-header__top__wrap">
+                    <div className="pg-header__top__wrap__left">
                         {/* +BOOKMARKCS CENTER EVENT REVIEW MEMBERSHIP LOGIN JOIN MY PAGEORDER */}
-                        <Link to='/' className='item'>Home</Link>
-                        <Link to='/login' className='item'>Login</Link>
+                        <Link to='/' className='pg-header__top__wrap__left__title'>+BOOKMARKC</Link>
+                        <Link to='/' className='pg-header__top__wrap__left__title'>+BOOKMARKC</Link>
+                        <Link to='/' className='pg-header__top__wrap__left__title'>+BOOKMARKC</Link>
                     </div>
-                    <div className="header_top_wrap__right"></div>
+                    <div className="pg-header__top__wrap__right">
+                        <Link to='/login' className='pg-header__top__wrap__right__title'>Login</Link>
+                        <Link to='/login' className='pg-header__top__wrap__right__title'>Login</Link>
+                        <Link to='/login' className='pg-header__top__wrap__right__title'>Login</Link>
+                    </div>
                 </div>
-                <div className="header_mide_wrap"></div>
-                <div className="header_bot_wrap"></div>
+                <div className="pg-header__mide__wrap"></div>
+                <div className="pg-header__bot__wrap"></div>
             </div>
         )
     }

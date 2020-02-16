@@ -5,28 +5,22 @@
   --font-family: Roboto, Helvetica, sans-serif;
   --font-weight: normal;
   --font-size: 12px !important;
-  --font-size-smaller: calc(var(--font-size) * 0.9);
-  --font-size-bigger: calc(var(--font-size) * 1.1);
-  --line-height: 1.2;
-
-  /* layout */
-  --alert-icon-size: calc(var(--gap) * 3.6);
-  --avatar-alt-height: 30px;
-  --avatar-alt-width: 30px;
-  --avatar-component-width: 50px;
-  --avatar-alt-font-size: 26px;
-  --checkbox-general-intent: 10px;
-  --checkbox-label-font-size: 16px;
-  --checkbox-size: 10px;
-  --checkbox-symbol-size: 10px;
-  --wallets-font-bold: 800;
-
-  /* measures */
-  --gap: 0.5em;
-  --big-gap: 60px;
-  --border-radius: 5px;
 }
 
 #root {
   position: relative;
+}
+
+body, html {
+  height: 100% !important;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  color: var(--base);
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--background);
 }

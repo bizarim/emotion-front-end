@@ -43,7 +43,7 @@ export default class Layout extends Component<Props, State> {
                     <PrivateRoute path='/login' component={Login} />
                     <Route component={NoMatch} />
                 </Switch>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         )
     }
