@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from '../home/Home';
 import Login from '../login/Login';
 import NoMatch from '../error/NoMatch';
-import Footer from '../footer/Footer';
+// import Footer from '../footer/Footer';
 import Outer from '../outer/Outer';
 interface Props {
 
