@@ -24,7 +24,7 @@ export default class Header extends Component<Props, State> {
                         <Link to='/' className='pg-header__top__wrap__left__title'>+BOOKMARKC</Link>
                     </div>
                     <div className="pg-header__top__wrap__right">
-                        <Link to='/login' className='pg-header__top__wrap__right__title'>Login</Link>
+                        <Link to='/Login' className='pg-header__top__wrap__right__title'>Login</Link>
                         <Link to='/login' className='pg-header__top__wrap__right__title'>Login</Link>
                         <Link to='/login' className='pg-header__top__wrap__right__title'>Login</Link>
                     </div>
