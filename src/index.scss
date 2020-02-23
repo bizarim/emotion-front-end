@@ -1,4 +1,4 @@
-@import "styles/style.pcss";
+@import "./styles/style.scss";
 
 :root {
   /* typography */
@@ -11,7 +11,8 @@
   position: relative;
 }
 
-body, html {
+body,
+html {
   height: 100% !important;
   font-family: var(--font-family);
   font-size: var(--font-size);
