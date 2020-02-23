@@ -16,7 +16,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Noto Sans KR", "arial", "sans-serif";
+  font-family: var(--font-family);
   font-size: 10px;
   line-height: 1;
   width: 100%;
@@ -59,10 +59,6 @@ article,
 button,
  figure,
  figcaption {
-  
-  font-family: "Roboto", "Noto Sans KR",
-  "arial",
-  "sans-serif";
   font-size: 10px;
   margin: 0;
   padding: 0;
